@@ -1,0 +1,56 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/base";
+@import "partials/mixins";
+@import "compass/css3";
+
+
+.right-sidebar {
+  a {
+    display:block;
+    color: $green;
+    opacity: .7;
+    &:hover {
+      opacity: 1;
+    }
+
+  }
+}
+
+.right-sidebar {
+  position:absolute;
+  background-color: $cod-gray;
+  border-radius: $red;
+  height: 100%;
+  top:0;
+  bottom:0;
+  right: 0;
+  width: 240px;
+  ul {
+    height:100%;
+  }
+  li {
+    float:left;
+    width:100%;
+    list-style: none;
+    text-decoration: none;
+    right:0;
+    left:0;
+    height:20%;
+  }
+  a{
+    text-align: center;
+    height:20%;
+    text-decoration: none;
+  }
+
+}
+
+
+.nav-menu {
+  li {
+    list-style: none;
+    display:inline-block;
+  }
+}
